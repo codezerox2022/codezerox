@@ -1,0 +1,369 @@
+/* For full website */
+/* Google font "Poppins" */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+/* Google font "Archivo" */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Archivo', sans-serif; */
+
+/* Google font "Archivo" */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* font-family: 'Archivo Black', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px 80px;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++ All fonts +++++++++++++++++++++++++++++++++++++++ */
+
+
+.text-left {
+    text-align: end;
+}
+
+.menu-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.sub-heading {
+    padding: 10px 0px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 7px;
+    color: #333;
+}
+
+.heading-thin {
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 1px;
+    color: #004C41;
+}
+
+/* for blod just increase the font width */
+.heading-thin span {
+    font-weight: 700;
+}
+
+.heading-regular {
+    padding: 15px 0px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: .58px;
+    color: #333;
+}
+
+.heading-regular a {
+    font-weight: 800;
+    text-decoration: none;
+    color: #004C41;
+}
+
+.sec-heading {
+    padding: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: .58px;
+    color: #333;
+}
+
+.footer-reserve {
+    color: white;
+    font-size: 14px;
+}
+
+.client-prof{
+    text-align: left;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: .58px;
+    color: #333;
+}
+
+/* ++++++++++++++++++++++++++ Shapes +++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.arrow-size {
+    margin-top: 5px;
+    width: 10%;
+    margin-left: 20px;
+}
+
+.speciality-svg {
+    width: 40%;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++ Navigation menu +++++++++++++++++++++++++++++++++ */
+/* divided column of navigation */
+.navigation-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 25px 80px;
+}
+
+
+/* Logo section */
+.logo-main {
+    width: 180px;
+    display: flex;
+    cursor: pointer;
+}
+
+.codezerox-size {
+    width: 78%;
+
+}
+
+.x-size {
+    width: 22%;
+}
+
+.svg-custom {
+    fill: #333;
+    /* logo colors */
+}
+
+
+/* nav-menus */
+.main-menu {
+    display: flex;
+    list-style: none;
+}
+
+.main-menu li {
+    margin: 0 15px;
+}
+
+.page-links {
+    text-decoration: none;
+    color: #333;
+}
+
+.sub-menu {
+    list-style-type: none;
+}
+
+
+/* nav button */
+.nav-contact {
+    color: #004C41;
+    font-weight: 700;
+}
+
+/* ++++++++++++++++Footer Nav ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.footer-nav{
+    
+}
+
+.footer-menu{
+    list-style-type: none;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Home Page started from here +++++++++++++++++++++++++++++++++++*/
+
+/* ---------------------------------section 1------------------------------*/
+.hero-sec {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.flag-size {
+    width: 5%;
+    margin-top: 20px;
+}
+
+.hero-btn {
+    display: flex;
+    padding: 0;
+}
+
+.hero-btn div {
+    margin-right: 15px;
+}
+
+.hero-svg {
+    width: 90%;
+}
+
+/*------------------------------------------ section 2--------------------- */
+.serve-sec {
+    margin-top: 150px;
+    position: relative;
+}
+
+.sec2 {
+    transform: translateX(-25%);
+    width: 450px;
+}
+
+.services-feat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.services-feat ul {
+    margin-right: 100px;
+    text-align: end;
+    list-style: none;
+}
+
+.svg-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rating-icons,
+.internal-svg {
+    fill: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rating-icons {
+    width: 450px;
+}
+
+.internal-svg {
+    width: 300px;
+}
+
+.e-nodejs {
+    fill: #09C5B7;
+    filter: drop-shadow(30px 35px 35px rgba(1, 255, 238, 0.9));
+}
+
+.x-svg {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+/*------------------------------------------ section 3--------------------- */
+.sec3 {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr 3fr);
+    gap: 150px;
+}
+
+.sec3-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-flex {
+    display: flex;
+}
+
+/* +++++++++++++++++++++++++++++++++++++ section 4 +++++++++++++++++++++++ */
+.sec4 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.speciality {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    background-color: #004C41;
+    fill: white;
+}
+
+.speciality p {
+    padding-top: 10px;
+    color: white;
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++section 5++++++++++++++++++++ */
+
+.sec5{
+    margin-top: 100px;
+}
+
+.work-sec{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++ Section 6 +++++++++++++++++++++++++ */
+
+.sec6{
+    margin-top: 100px;
+}
+
+.testimonial-sec6{
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 100px 200px;
+    border-radius: 10px;
+}
+
+.author-sec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.author-sec img{
+    width: 10%;
+}
+
+/* ++++++++++++++++++++++++++++++++++++ Section 7 ++++++++++++++++++++++++++ */
+.sec7{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* +++++++++++++++++++++++++footer section +++++++++++++++++++++++++++++++*/
+.footer-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: #004C41;
+    height: 50px;
+}
+.footer-reserve span{
+    font-size: 25px;
+    width: 500;
+}
